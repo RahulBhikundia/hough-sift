@@ -1,0 +1,20 @@
+.venv/
+__pycache__/
+data/
+checkpoints/
+results/multiobj_scenes/
+report/*.aux
+report/*.log
+report/*.out
+report/*.bbl
+report/*.blg
+report/*.fls
+report/*.fdb_latexmk
+report/build.log
+results/figures/qual_*.png
+
+# presentation material stays local (not for GitHub)
+presentation/
+*.pptx
+*.ppt
+report/presentation_prompt.md
