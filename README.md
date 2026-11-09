@@ -2,7 +2,7 @@
 
 **Hough pose clustering for learned local features, with semantic-gated voting**
 
-Course project for Computer Vision at IIT Jodhpur (November 2026), supervised by Dr. Deepak Mishra.
+Course project for CSL7360: Computer Vision at IIT Jodhpur.
 
 | Member | Roll no. |
 |---|---|
@@ -14,7 +14,7 @@ Course project for Computer Vision at IIT Jodhpur (November 2026), supervised by
 
 ---
 
-## TL;DR
+## Overview
 
 - Classical **Hough pose clustering** (Lowe, 2004) is a deterministic, outlier-robust alternative to RANSAC, but it needs every keypoint to carry a **scale and orientation**. Modern learned detectors such as **DISK** and SuperPoint don't provide either.
 - We make Hough verification work with learned features through **pairwise similarity voting**: two matches are enough to determine scale and rotation.
